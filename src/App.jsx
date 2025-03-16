@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-import Heading from "./components/heading";
+import Heading from "./components/Heading";
 import Search from "./components/Search";
 import Introduction from "./components/Introduction";
 import AboutMe from "./components/AboutMe";
