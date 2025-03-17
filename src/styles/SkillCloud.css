@@ -1,0 +1,84 @@
+.skill-cloud-container {
+    padding: 20px;
+    
+    color: white;
+    
+    margin-top: 100px;
+}
+
+.skill-cloud {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.skill-tag {
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #333;
+    transition: transform 0.2s ease;
+}
+
+.skill-tag:hover {
+    transform: scale(1.1);
+}
+
+.skill-info {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background-color: #f0e6d2;
+    /* Vintage background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    color: #332211;
+    /* Vintage text color */
+    font-family: 'Georgia', serif;
+    /* Vintage font */
+}
+
+.skill-info.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.skill-info h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #a0522d;
+    /* Highlight color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    /* Text shadow */
+}
+
+.skill-info p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.skill-info button {
+    padding: 10px 20px;
+    background-color: #a0522d;
+    /* Vintage button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.skill-info button:hover {
+    background-color: #8b4513;
+    /* Darker hover color */
+}

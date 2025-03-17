@@ -1,0 +1,143 @@
+/* Center the section */
+.search-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Gradient Heading */
+.search-heading {
+    font-size: 38px;
+    font-weight: bold;
+    color: white;
+}
+
+.search-heading span {
+    background: linear-gradient(90deg, #db0a0a, #b3c743);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Search Container */
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1e1e1e;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 15px;
+    width: 320px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Search Input */
+.search-bar {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 8px;
+    color: white;
+    width: 100%;
+}
+
+/* Search Icon */
+.search-icon {
+    color: #888;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* Search Button */
+.search-btn {
+    margin-top: 12px;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: linear-gradient(90deg, #5a5af3, #c85fd6);
+    color: white;
+    transition: 0.3s;
+}
+
+.search-btn:hover {
+    opacity: 0.8;
+}
+
+/* ... your existing search.css ... */
+
+/* ... your existing search.css ... */
+
+.search-highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.search-results {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-height: 200px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.search-result {
+    padding: 8px 12px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    position: relative;
+    /* For absolute positioning of button */
+}
+
+.search-result button {
+    position: absolute;
+    /* Position button at the top */
+    top: 5px;
+    right: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    /* Smaller font size */
+}
+
+.search-result .text-preview {
+    /* New class for text preview */
+    max-height: 60px;
+    /* Limit text height */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    /* For multi-line ellipsis */
+    -webkit-line-clamp: 3;
+    /* Limit to 3 lines */
+    -webkit-box-orient: vertical;
+}
+
+.search-container {
+    position: relative;
+    /* For absolute positioning of cancel button */
+}
+
+.cancel-btn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: #ccc;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
