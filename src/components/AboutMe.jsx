@@ -53,7 +53,7 @@ const AboutMe = () => {
           </button>
           <button className="resume-btn">
             <a
-              href="https://drive.google.com/file/d/1TxmQ0FCpzcIXULGSNVEGPcUOuX4p0EXl/view?usp=drive_link"
+              href="https://docs.google.com/document/d/10fbXopX8x1TirJ5F4nMsVnQpEsnJ1HOuW_QfRUC1E7o/edit?tab=t.0"
               target="_blank"
               rel="noopener noreferrer"
             >
